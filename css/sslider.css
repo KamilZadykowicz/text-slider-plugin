@@ -1,0 +1,30 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sslider {
+    font-family: 'Montserrat', sans-serif;
+    transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+    transform: scale(1);
+    opacity: 1;
+}
+.sslider--decrease {
+    transform: scale(0.1);
+}
+.sslider--rotate {
+    transform: rotateX(90deg);
+    opacity: 0.1;
+}
+.sslider__header {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 0.3em;
+}
+.sslider__subheader {
+    text-align: center;
+    font-size: 34px;
+    color: #9adde9;
+}
